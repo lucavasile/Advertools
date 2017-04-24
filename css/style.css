@@ -27,14 +27,13 @@ p {
   line-height: 2rem;
 }
 
-img {
+.section img{
   max-width: 100%;
   height: auto;
 }
 .button-collapse {
   color: #ef5350;
 }
-
 .parallax-container {
   min-height: 380px;
   line-height: 0;
@@ -78,17 +77,25 @@ img {
 
 }
 
+.col {
+  margin-top: 0px;
+  padding-top: 5px;
+}
+
 .col-servizio {
   margin-top: 60px;
   margin-bottom: 100px;
 }
 .col-img {
   max-height: 120px;
+  margin-bottom: 40px;
+  margin-top: 0px;
 }
 
 .icon-block {
-  padding: 0 15px;
-  height: 300px;
+  margin-top: 0px;
+  padding: 0px;
+  height: 250px;
 }
 .icon-block .material-icons {
   font-size: inherit;
