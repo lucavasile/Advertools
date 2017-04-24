@@ -27,7 +27,10 @@ p {
   line-height: 2rem;
 }
 
-
+img {
+  max-width: 100%;
+  height: auto;
+}
 .button-collapse {
   color: #ef5350;
 }
@@ -43,10 +46,10 @@ p {
   height: 100%;
   width: 100%;
 }
-  
+
 .header {
   margin-top: 5%;
-  padding: 0%;
+  padding-top: 9%;
 }
 
 .header-subtitle{
@@ -79,9 +82,13 @@ p {
   margin-top: 60px;
   margin-bottom: 100px;
 }
+.col-img {
+  max-height: 120px;
+}
 
 .icon-block {
   padding: 0 15px;
+  height: 300px;
 }
 .icon-block .material-icons {
   font-size: inherit;
