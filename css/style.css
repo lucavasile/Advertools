@@ -27,6 +27,8 @@ p {
   line-height: 2rem;
 }
 
+* {box-sizing:border-box}
+
 .section img{
   max-width: 100%;
   height: auto;
@@ -48,7 +50,7 @@ p {
 
 .header {
   margin-top: 5%;
-  padding-top: 9%;
+  padding-top: 0%;
 }
 
 .header-subtitle{
@@ -92,8 +94,11 @@ p {
   margin-top: 0px;
 }
 
+.mySlides {
+  height: 300px:;
+}
 .icon-block {
-  margin-top: 0px;
+  margin-top: 5px;
   padding: 0px;
   height: 250px;
 }
